@@ -1,0 +1,32 @@
+name: shatta_rang
+description: لعبة شطرنج عصرية - شطة رنج
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chess: ^0.7.0  # مكتبة منطق الشطرنج
+  flutter_chessboard: ^2.0.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+  fonts:
+    - family: ShattaFont
+      fonts:
+        - asset: assets/fonts/Cairo-Bold.ttf
